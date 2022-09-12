@@ -49,7 +49,7 @@ class TrainsTableSeeder extends Seeder
         $train_3->arrival_destination = 'Firenze Santa Maria Novella';
         $train_3->departure_time = '2022-09-12 07:30:00';
         $train_3->arrival_time =  '2022-09-12 10:30:00';
-        $train_3->train_code = '100';
+        $train_3->train_code = '102';
         $train_3->carriage_number = '2';
         $train_3->isTrainOnTime = true;
         $train_3->isTrainCancelled = false;
@@ -63,7 +63,7 @@ class TrainsTableSeeder extends Seeder
         $train_4->arrival_destination = 'Roma Tiburtina';
         $train_4->departure_time =  '2022-09-12 13:45:00';
         $train_4->arrival_time =  '2022-09-12 16:17:00';
-        $train_4->train_code = '100';
+        $train_4->train_code = '103';
         $train_4->carriage_number = '2';
         $train_4->isTrainOnTime = true;
         $train_4->isTrainCancelled = false;
