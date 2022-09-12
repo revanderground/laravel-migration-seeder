@@ -13,7 +13,7 @@
 
        <li>
         Il treno <strong>{{$train->train_code}} </strong> da <strong>{{$train->departure_destination}} </strong> e diretto a <strong>{{$train->arrival_destination}}</strong>
-        è in partenza alle ore <strong>{{ dateTime('d-m-Y', strtotime($train->departure_time)) }}</strong> e arriverà alle ore <strong>{{$train->arrival_time}}</strong>
+        è in partenza alle ore <strong>{{ $train->departure_time }}</strong> e arriverà alle ore <strong>{{$train->arrival_time}}</strong>
        </li>
 
         @empty
